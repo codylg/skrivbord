@@ -1,0 +1,7 @@
+.build/
+Skrivbord.app/
+Resources/AppIcon.iconset/
+.swiftpm/
+Skrivbord.xcodeproj/
+DerivedData/
+.DS_Store
