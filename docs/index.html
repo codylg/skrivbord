@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy for Skrivbord</title>
+<title>Skrivbord — Support &amp; Privacy Policy</title>
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -14,29 +14,45 @@
     line-height: 1.6;
     color: #1c1c1e;
   }
-  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
-  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  h1 { font-size: 1.6rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3rem; margin-top: 0; }
+  h3 { font-size: 1.1rem; margin-top: 2rem; }
   .updated { color: #6e6e73; font-size: 0.9rem; margin-top: 0; }
   ul { padding-left: 1.25rem; }
+  a { color: #0a7cff; }
+  hr { border: none; border-top: 1px solid #d1d1d6; margin: 2.5rem 0; }
   @media (prefers-color-scheme: dark) {
     body { color: #f2f2f7; background: #1c1c1e; }
     .updated { color: #98989d; }
+    a { color: #4da3ff; }
+    hr { border-top-color: #38383a; }
   }
 </style>
 </head>
 <body>
-<h1>Privacy Policy for Skrivbord</h1>
+<h1>Skrivbord</h1>
+
+<section id="support">
+<h2>Support</h2>
+<p>Skrivbord is a native macOS menu bar app for controlling Bluetooth standing desks. For bugs, feature requests, or questions, please open an issue on the GitHub repository:</p>
+<p><a href="https://github.com/codylg/skrivbord">github.com/codylg/skrivbord</a></p>
+</section>
+
+<hr>
+
+<section id="privacy">
+<h2>Privacy Policy</h2>
 <p class="updated">Last updated: July 21, 2026</p>
 
-<p>Skrivbord is a macOS menu bar app for controlling Bluetooth standing desks (including the IKEA Idasen). This policy explains what data Skrivbord does — and does not — collect.</p>
+<p>This policy explains what data Skrivbord does — and does not — collect.</p>
 
-<h2>Summary</h2>
+<h3>Summary</h3>
 <p>Skrivbord does not collect, transmit, or share any personal data. It has no analytics, no crash reporting, no advertising, no user accounts, and makes no network requests of any kind.</p>
 
-<h2>Bluetooth</h2>
+<h3>Bluetooth</h3>
 <p>Skrivbord uses Bluetooth Low Energy to find, connect to, and control your standing desk. This communication happens entirely between your Mac and your desk over a direct local Bluetooth connection. No desk data (height, connection status, or otherwise) is sent anywhere else, stored remotely, or shared with Skrivbord's developer or any third party.</p>
 
-<h2>Data Stored on Your Device</h2>
+<h3>Data Stored on Your Device</h3>
 <p>Skrivbord stores a small amount of preference data locally on your Mac, using Apple's standard UserDefaults storage:</p>
 <ul>
   <li>Your saved sit and stand height presets</li>
@@ -44,16 +60,17 @@
 </ul>
 <p>This data never leaves your device. It is not backed up to iCloud, not transmitted over the network, and is deleted automatically if you uninstall the app.</p>
 
-<h2>Shortcuts and Automation</h2>
+<h3>Shortcuts and Automation</h3>
 <p>Skrivbord supports the Shortcuts app, Siri, and a custom URL scheme (<code>skrivbord://</code>) so you can trigger sit/stand commands from automations you create. These features operate entirely on-device and do not transmit any data externally.</p>
 
-<h2>Third Parties</h2>
+<h3>Third Parties</h3>
 <p>Skrivbord does not integrate with, or share data with, any third-party service, SDK, or advertising network.</p>
 
-<h2>Children's Privacy</h2>
+<h3>Children's Privacy</h3>
 <p>Skrivbord does not knowingly collect any information from anyone, including children, because it does not collect information from anyone at all.</p>
 
-<h2>Changes to This Policy</h2>
+<h3>Changes to This Policy</h3>
 <p>If this policy changes, an updated version will be posted here with a revised "Last updated" date.</p>
+</section>
 </body>
 </html>
